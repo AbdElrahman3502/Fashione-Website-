@@ -185,7 +185,7 @@ body {
 #secondPart {
   margin: 100px auto;
   padding: 10px;
-  width: 1500px;
+  width: 1500rem;
   display: flex;
   align-items: center;
   position: relative;

@@ -58,7 +58,25 @@
 
   <section id="secondPart">
 
-    <div class="child" id="red">
+    <script>
+      let ids = ['red', 'blue', 'white', 'black', 'yellow'];
+      for (var i = 0 ; i <= ids.length ; i++) {
+        document.write(`
+          <div class="child" id="${i}">
+            <div class="left">
+              <h4> Lorem ipsum, sit amet. </h4>
+              <h3> spring summer collection </h3>
+              <a href="#"> shop now </a>
+            </div>
+            <div class="right">
+              <img src="./Images/img${i+2}.png" alt="…">
+            </div>
+          </div>
+        `)
+      }
+    </script>
+
+    <!--div class="child" id="red">
       <div class="left">
         <h4> Lorem ipsum, sit amet. </h4>
         <h3> spring summer collection </h3>
@@ -111,7 +129,7 @@
       <div class="right">
         <img src="./Images/img6.png" alt="…">
       </div>
-    </div>
+  </div-->
 
 
   </section>

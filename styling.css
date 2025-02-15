@@ -190,7 +190,7 @@ body {
   align-items: center;
   position: relative;
   height: 220px;
-  overflow: auto;
+  overflow: scroll;
   gap: 15px;
 }
 
@@ -224,7 +224,7 @@ body {
   padding: 0px;
   font-size: 0.9rem;
   height: 190px;
-  width: 200rem;
+  width: 5rem;
   border-radius: 15px;
   transition: 0.3s;
 }

@@ -12,6 +12,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -234,7 +235,7 @@ body {
 }
 
 .child .left {
-  width: 200px;
+  width: 140px;
   text-transform: capitalize;
 }
 

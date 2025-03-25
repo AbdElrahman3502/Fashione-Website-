@@ -104,8 +104,8 @@ body {
   position: absolute;
   background: radial-gradient(#17E3F31F, #D1D0D040, #17E3F31F, #D1D0D040 70%);
   transform: translateX(-370px);
-  height: 1000px;
-  width: 1000px;
+  height: 900px;
+  width: 900px;
   border-radius: 50%;
   z-index: -1;
   transition: 0.8s;
@@ -186,7 +186,7 @@ body {
 #secondPart {
   margin: 100px auto;
   padding: 10px;
-  width: 70%;
+  width: 68%;
   display: flex;
   align-items: center;
   position: relative;
@@ -225,7 +225,7 @@ body {
   padding: 0px;
   font-size: 0.9rem;
   height: 190px;
-  width: 40rem;
+  width: 42rem;
   border-radius: 15px;
   transition: 0.3s;
 }
